@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudioR Labs — Mobile games &amp; apps</title>
+<meta name="description" content="StudioR Labs makes fun, lightweight mobile games and apps. Home of RuleFlip — same signals, different rules.">
+<style>
+  :root { --bg1:#1e0b3e; --bg2:#06020f; --cyan:#22e4ff; --violet:#8b5cf6; --magenta:#ff2e97; --gold:#ffd166; --text:#f5f3ff; --muted:#aca2d6; }
+  * { box-sizing: border-box; }
+  body { margin:0; min-height:100vh; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         color:var(--text); background: radial-gradient(1200px 600px at 80% -10%, #3a1a7a 0%, transparent 60%),
+         linear-gradient(180deg, var(--bg1), var(--bg2)); }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 20px 64px; }
+  .brand { font-size: 14px; letter-spacing: .35em; color: var(--cyan); font-weight: 700; }
+  h1 { font-size: clamp(36px, 7vw, 56px); margin: 10px 0 8px; line-height: 1.05;
+       background: linear-gradient(90deg, var(--cyan), var(--violet), var(--magenta)); -webkit-background-clip:text; background-clip:text; color: transparent; }
+  .lead { color: var(--muted); font-size: 18px; margin: 0 0 40px; }
+  .card { display:flex; gap:20px; align-items:center; padding:22px; border-radius:24px;
+          background: rgba(255,255,255,.06); border:1px solid rgba(139,92,246,.45); }
+  .icon { width:88px; height:88px; flex:none; border-radius:22px; background:#1a0838; display:grid; place-items:center; }
+  .icon span { width:52px; height:52px; border-radius:50%; background: linear-gradient(90deg, var(--cyan) 50%, var(--magenta) 50%); }
+  .card h2 { margin:0 0 6px; font-size:24px; }
+  .card p { margin:0 0 14px; color: var(--muted); }
+  .btn { display:inline-block; padding:12px 20px; border-radius:999px; font-weight:700; text-decoration:none; color:#fff;
+         background: linear-gradient(90deg, var(--cyan), var(--violet), var(--magenta)); }
+  .links { margin-top: 40px; display:flex; flex-wrap:wrap; gap:18px; }
+  .links a { color: var(--gold); text-decoration:none; font-weight:600; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  @media (max-width:520px) { .card { flex-direction:column; text-align:center; } }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">STUDIOR LABS</div>
+    <h1>Small games.<br>Big fun.</h1>
+    <p class="lead">We make lightweight, fun mobile games and apps.</p>
+
+    <div class="card">
+      <div class="icon"><span></span></div>
+      <div>
+        <h2>RuleFlip</h2>
+        <p>Same signals. Different rules. A fast reaction game where the rule flips every 3 moves — climb the World and Weekly Top 25.</p>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.ncaps.ruleflip">Get it on Google Play ▶</a>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="https://rakesh290491-cmd.github.io/ruleflip-privacy/privacy-policy.html">RuleFlip privacy policy</a>
+      <a href="mailto:rakesh290491@gmail.com">Contact us</a>
+    </div>
+
+    <footer>© 2026 StudioR Labs</footer>
+  </div>
+</body>
+</html>
